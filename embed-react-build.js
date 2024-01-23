@@ -55,7 +55,7 @@ function EmbedReactBuild() {
 
 window.onload = (event) => {
     const embed = new EmbedReactBuild()
-    embed.setURL("https://ownercommunity-ui.pages.dev/")
+    embed.setURL("https://whitelabel-ui.pages.dev/")
     embed.run()
 };
 
