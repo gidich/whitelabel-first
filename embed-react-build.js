@@ -31,13 +31,13 @@ function EmbedReactBuild() {
                 case 'css': {
                     let link = document.createElement('link');
                     link.rel = "stylesheet";
-                    link.href =  url + dep;
+                    link.href =  dep;
                     document.head.appendChild(link);
                     break;
                 }
                 case 'js': {
                     let script = document.createElement('script');
-                    script.src =  url + dep;
+                    script.src =   dep;
                     script.type = "module";
                     document.body.appendChild(script);
                     break;
